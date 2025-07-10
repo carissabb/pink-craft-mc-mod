@@ -3,5 +3,6 @@
   "item.examplemod.pink_shovel": "Pink Shovel",
   "item.examplemod.pink_pickaxe": "Pink Pickaxe",
   "item.examplemod.pink_axe": "Pink Axe",
-  "item.examplemod.pink_hoe": "Pink Hoe"
+  "item.examplemod.pink_hoe": "Pink Hoe",
+  "block.examplemod.pink_ore": "Pink Ore"
 }

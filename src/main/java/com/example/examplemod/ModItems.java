@@ -1,6 +1,7 @@
 package com.example.examplemod;
 
 import net.minecraft.world.item.AxeItem;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.HoeItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.SwordItem;
@@ -14,6 +15,11 @@ import net.minecraftforge.eventbus.api.IEventBus;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, ExampleMod.MODID);
+
+    // ore  
+    /*
+    public static final RegistryObject<Item> PINK_ORE_ITEM = ITEMS.register("pink_ore",
+    	    () -> new BlockItem(ModBlocks.PINK_ORE.get(), new Item.Properties()));*/
 
     // sword
     public static final RegistryObject<Item> PINK_SWORD = ITEMS.register("pink_sword",

@@ -20,6 +20,8 @@ public class ExampleMod {
 
         // Register items
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
 
         // Register tab content
         modEventBus.addListener(this::addCreative);
@@ -39,5 +41,11 @@ public class ExampleMod {
             event.accept(ModItems.PINK_AXE.get());
             event.accept(ModItems.PINK_HOE.get());
         }
+        
+        // get blocks
+        if (event.getTab().getDisplayName().getString().equals("Building Blocks")) {
+            event.accept(ModBlocks.PINK_ORE.get());
+        }
+
     }
 }
