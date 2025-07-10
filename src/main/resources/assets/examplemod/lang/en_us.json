@@ -1,3 +1,7 @@
 {
-  "item.examplemod.pink_sword": "Pink Sword"
+  "item.examplemod.pink_sword": "Pink Sword",
+  "item.examplemod.pink_shovel": "Pink Shovel",
+  "item.examplemod.pink_pickaxe": "Pink Pickaxe",
+  "item.examplemod.pink_axe": "Pink Axe",
+  "item.examplemod.pink_hoe": "Pink Hoe"
 }
