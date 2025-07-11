@@ -16,10 +16,6 @@ import net.minecraftforge.eventbus.api.IEventBus;
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, ExampleMod.MODID);
 
-    // ore  
-    /*
-    public static final RegistryObject<Item> PINK_ORE_ITEM = ITEMS.register("pink_ore",
-    	    () -> new BlockItem(ModBlocks.PINK_ORE.get(), new Item.Properties()));*/
 
     // sword
     public static final RegistryObject<Item> PINK_SWORD = ITEMS.register("pink_sword",
@@ -40,6 +36,11 @@ public class ModItems {
     // hoe
     public static final RegistryObject<Item> PINK_HOE = ITEMS.register("pink_hoe",
             () -> new HoeItem(Tiers.DIAMOND, new Item.Properties()));
+    
+    // pink gem
+    public static final RegistryObject<Item> PINK_GEM = ITEMS.register("pink_gem",
+    	    () -> new Item(new Item.Properties()));
+
     
     
     public static void register(IEventBus eventBus) {

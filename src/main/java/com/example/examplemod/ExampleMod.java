@@ -46,6 +46,12 @@ public class ExampleMod {
         if (event.getTab().getDisplayName().getString().equals("Building Blocks")) {
             event.accept(ModBlocks.PINK_ORE.get());
         }
+        
+        // get ingredients
+        if (event.getTab().getDisplayName().getString().equals("Ingredients")) {
+            event.accept(ModItems.PINK_GEM.get());
+        }
+
 
     }
 }

@@ -27,23 +27,13 @@ public class ModBlocks {
     
     // Register pink ore block + item with the helper method
     public static final RegistryObject<Block> PINK_ORE = registerBlock("pink_ore",
-        () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.DIAMOND_ORE)));
+        () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.DIAMOND_ORE).requiresCorrectToolForDrops()));
 
     
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);
         ITEMS.register(eventBus);
     }
-    
-    /*
-        // Block registration
-        public static final RegistryObject<Block> PINK_ORE = BLOCKS.register("pink_ore",
-            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.DIAMOND_ORE)));
-
-        // BlockItem registration, same name as block
-        public static final RegistryObject<Item> PINK_ORE = ITEMS.register("pink_ore",
-            () -> new BlockItem(PINK_ORE.get(), new Item.Properties())); */
-
 
 
 }

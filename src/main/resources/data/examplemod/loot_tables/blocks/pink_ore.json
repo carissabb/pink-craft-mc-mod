@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "examplemod:pink_gem"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        },
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "predicate_type": "minecraft:tool",
+            "tag": "minecraft:mineable/pickaxe"
+          }
+        }
+      ]
+    }
+  ]
+}
