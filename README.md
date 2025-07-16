@@ -1,5 +1,5 @@
 # Minecraft Pink Gear Set
-A Forge-based Minecraft mod that introduces a new pink ore which spawns naturally in the world and drops a pink gem. This gem can be crafted into blocks, as well as a full set of armor and tools. The pink gear offers a custom durability and strength - stronger than diamond but slightly weaker than netherite. All items feature unique textures and sounds.
+A Forge-based Minecraft mod that introduces a new **pink ore** which spawns naturally in the world and drops a pink gem. This gem can be crafted into blocks, as well as a full set of armor and tools. The pink gear offers a custom durability and strength - stronger than diamond but slightly weaker than netherite. All items feature unique textures and sounds.
 
 ## Features
 - Adds a new pink ore block
