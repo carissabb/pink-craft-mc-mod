@@ -68,6 +68,11 @@ public class ModItems {
     // pink gem
     public static final RegistryObject<Item> PINK_GEM = ITEMS.register("pink_gem",
     	    () -> new Item(new Item.Properties()));
+    
+    // pink block
+    public static final RegistryObject<Item> PINK_BLOCK_ITEM = ITEMS.register("pink_block",
+    	    () -> new BlockItem(ModBlocks.PINK_BLOCK.get(), new Item.Properties()));
+
 
     
     public static void register(IEventBus eventBus) {

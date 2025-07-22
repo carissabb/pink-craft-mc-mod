@@ -25,9 +25,13 @@ public class ModBlocks {
         return block;
     }
     
-    // Register pink ore block + item with the helper method
+    // pink ore 
     public static final RegistryObject<Block> PINK_ORE = registerBlock("pink_ore",
         () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.DIAMOND_ORE).requiresCorrectToolForDrops()));
+
+    // pink block
+    public static final RegistryObject<Block> PINK_BLOCK = BLOCKS.register("pink_block",
+    	    () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.STONE).strength(5.0f).requiresCorrectToolForDrops()));
 
     
     public static void register(IEventBus eventBus) {

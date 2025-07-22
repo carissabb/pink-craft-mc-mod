@@ -9,5 +9,6 @@
   "item.examplemod.pink_leggings": "Pink Leggings",
   "item.examplemod.pink_boots": "Pink Boots",  
   "block.examplemod.pink_ore": "Pink Ore",
-  "item.examplemod.pink_gem": "Pink Gem"
+  "item.examplemod.pink_gem": "Pink Gem",
+  "block.examplemod.pink_block": "Block of Pink"
 }

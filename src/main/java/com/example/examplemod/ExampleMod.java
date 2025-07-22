@@ -23,8 +23,6 @@ public class ExampleMod {
         // Register items
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
-        //ModArmorMaterials.ARMOR_MATERIALS.register(modEventBus);
-
 
         // Register tab content
         modEventBus.addListener(this::addCreative);
@@ -49,14 +47,19 @@ public class ExampleMod {
             event.accept(ModItems.PINK_HOE.get());
         }
         
-        // get blocks
-        if (event.getTab().getDisplayName().getString().equals("Building Blocks")) {
+        // get natural blocks
+        if (event.getTab().getDisplayName().getString().equals("Natural Blocks")) {
             event.accept(ModBlocks.PINK_ORE.get());
         }
         
         // get ingredients
         if (event.getTab().getDisplayName().getString().equals("Ingredients")) {
             event.accept(ModItems.PINK_GEM.get());
+        }
+        
+        // get building blocks
+        if (event.getTab().getDisplayName().getString().equals("Building Blocks")) {
+            event.accept(ModBlocks.PINK_BLOCK.get());
         }
 
 
