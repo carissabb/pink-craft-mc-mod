@@ -28,13 +28,6 @@ import net.minecraftforge.eventbus.api.IEventBus;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, ExampleMod.MODID);
-    
-   /* public static final RegistryObject<Item> PINK_SWORD = ITEMS.register("pink_sword",
-    	    () -> new SwordItem(ModToolTiers.PINK, 3, -2.4F, new Item.Properties()));
-
-    	public static final RegistryObject<Item> PINK_HELMET = ITEMS.register("pink_helmet",
-    	    () -> new ArmorItem(ModArmorMaterials.PINK, ArmorItem.Type.HELMET, new Item.Properties()));
-    	    */
 
     // sword
     public static final RegistryObject<Item> PINK_SWORD = ITEMS.register("pink_sword",
