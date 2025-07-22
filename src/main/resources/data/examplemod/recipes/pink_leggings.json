@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "G G",
+    "G G"
+  ],
+  "key": {
+    "G": {
+      "item": "examplemod:pink_gem"
+    },
+  },
+  "result": {
+    "id": "examplemod:pink_leggings",
+    "count": 1
+  }
+}

@@ -4,6 +4,10 @@
   "item.examplemod.pink_pickaxe": "Pink Pickaxe",
   "item.examplemod.pink_axe": "Pink Axe",
   "item.examplemod.pink_hoe": "Pink Hoe",
+  "item.examplemod.pink_helmet": "Pink Helmet",
+  "item.examplemod.pink_chestplate": "Pink Chestplate",
+  "item.examplemod.pink_leggings": "Pink Leggings",
+  "item.examplemod.pink_boots": "Pink Boots",  
   "block.examplemod.pink_ore": "Pink Ore",
   "item.examplemod.pink_gem": "Pink Gem"
 }

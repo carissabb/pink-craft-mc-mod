@@ -1,4 +1,5 @@
 package com.example.examplemod;
+import com.example.examplemod.ModArmorMaterials;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -14,6 +15,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 public class ExampleMod {
     public static final String MODID = "examplemod";
     public static final Logger LOGGER = LogManager.getLogger();
+    
 
     public ExampleMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
@@ -21,6 +23,7 @@ public class ExampleMod {
         // Register items
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        //ModArmorMaterials.ARMOR_MATERIALS.register(modEventBus);
 
 
         // Register tab content
@@ -31,6 +34,10 @@ public class ExampleMod {
     	// get combat items
         if (event.getTab().getDisplayName().getString().equals("Combat")) {
         	event.accept(ModItems.PINK_SWORD.get());
+            event.accept(ModItems.PINK_HELMET.get());
+            event.accept(ModItems.PINK_CHESTPLATE.get());
+            event.accept(ModItems.PINK_LEGGINGS.get());
+            event.accept(ModItems.PINK_BOOTS.get());
         }
 
         
