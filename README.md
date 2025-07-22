@@ -58,4 +58,4 @@ A Forge-based Minecraft mod that introduces a new **pink ore** which spawns natu
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Credits
-Built using the Forge modding framework. Thanks to Minecraft Forge developers and the modding community!
+Built using the Forge modding framework.
