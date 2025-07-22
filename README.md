@@ -43,7 +43,7 @@ A Forge-based Minecraft mod that introduces a new **pink ore** which spawns natu
 <img width="250" height="235" alt="Screenshot 2025-07-22 at 11 27 22 AM" src="https://github.com/user-attachments/assets/43a0d294-b538-4963-abce-21f23ad9f265" />
 
 
-
+<!--
 ## Installation
 1. Install [Minecraft Forge](https://files.minecraftforge.net/) MC 1.20.6 - 50.2.0.
 2. Download the latest release from the [Releases](https://github.com/carissabb/pink-craft-mc-mod/releases) tab.
@@ -53,6 +53,7 @@ A Forge-based Minecraft mod that introduces a new **pink ore** which spawns natu
 - Clone the repo
 - Run `./gradlew build`
 - Output will be in `/build/libs`
+-->
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
